@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>림버스 EGO 기프트 필터</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>림버스 EGO 기프트 필터링 도구</h1>
+  <section id="filters">
+    <h2>키워드 필터</h2>
+    <label><input type="checkbox" class="keyword" value="화상"> 화상</label>
+    <label><input type="checkbox" class="keyword" value="출혈"> 출혈</label>
+    <label><input type="checkbox" class="keyword" value="진동"> 진동</label>
+    <label><input type="checkbox" class="keyword" value="파열"> 파열</label>
+    <label><input type="checkbox" class="keyword" value="침잠"> 침잠</label>
+    <label><input type="checkbox" class="keyword" value="호흡"> 호흡</label>
+    <label><input type="checkbox" class="keyword" value="충전"> 충전</label>
+    <label><input type="checkbox" class="keyword" value="참격"> 참격</label>
+    <label><input type="checkbox" class="keyword" value="타격"> 타격</label>
+    <label><input type="checkbox" class="keyword" value="관통"> 관통</label>
+    <label><input type="checkbox" class="keyword" value="범용"> 범용</label>
+    <br><br>
+    <label><input type="checkbox" id="includeHard"> 하드 전용 기프트 포함</label>
+    <label><input type="checkbox" id="onlyFusion"> 조합식 보기</label>
+    <label><input type="checkbox" id="onlyLimited"> 카드팩 한정 기프트만 보기</label>
+    <br><br>
+    <label><input type="checkbox" id="showAllByKeyword"> 선택 키워드 전체 보기 (다른 조건 무시)</label>
+  </section>
+  <section id="results"></section>
+  <footer><p>데이터 출처: 림버스 컴퍼니 프로젝트</p></footer>
+  <script src="main.js"></script>
+</body>
+</html>
